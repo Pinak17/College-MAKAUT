@@ -14,11 +14,10 @@ int main(){
 		if(d < 0.0005 && d>-0.0005){
 			break;
 		}
-		printf("The difference is %f\n", d);
 		x=x1;
 		i++;
 	}while(1 && i<50);
-	printf("The ans is %f\n",x1);
+	printf("The root from Newton Raphson method is %f\n",x1);
 	return 0;
 }
 
